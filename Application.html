@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Application.css">
+    <title>Online Application</title>
+</head>
+<body>
+    <header>
+        <h1>Online Application Portal</h1>
+        <nav>
+            <a href="#apply">Apply</a>
+            <a href="#results">Results</a>
+            <a href="#login">Login</a>
+        </nav>
+    </header>
+
+    <section id="apply">
+        <h2>Application Form</h2>
+        <form id="applicationForm">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="background" placeholder="Educational Background" required></textarea>
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <section id="results">
+        <h2>Results</h2>
+        <div id="resultDisplay"></div>
+    </section>
+
+    <footer>
+        <p>© 2024 Online Application Portal</p>
+    </footer>
+
+    <script src="Application.js"></script>
+</body>
+</html>
